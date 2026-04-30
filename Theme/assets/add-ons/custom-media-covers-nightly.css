@@ -123,7 +123,7 @@
     background-image: var(--urlPlaylistsCover) !important;
 }
 
-[data-prefix="MIX"] .cardContent {
+[data-type="CollectionFolder"][data-prefix="MIX"] .cardContent {
     background-color: var(--colorOverlayMixedCover) !important;
     background-image: var(--urlMixedCover) !important;
 }
@@ -133,17 +133,17 @@
     background-image: var(--urlRecordedmoviesCover) !important;
 }
 
-[data-prefix="REC"] .cardContent {
+[data-type="CollectionFolder"][data-prefix="REC"] .cardContent {
     background-color: var(--colorOverlayRecordedtvCover) !important;
     background-image: var(--urlRecordedtvCover) !important;
 }
 
-[data-prefix="ANI"] .cardContent {
+[data-type="CollectionFolder"][data-prefix="ANI"] .cardContent {
     background-color: var(--colorOverlayAnimeCover) !important;
     background-image: var(--urlAnimeCover) !important;
 }
 
-[data-prefix="SPO"] .cardContent {
+[data-type="CollectionFolder"][data-prefix="SPO"] .cardContent {
     background-color: var(--colorOverlaySportsCover) !important;
     background-image: var(--urlSportsCover) !important;
 }
