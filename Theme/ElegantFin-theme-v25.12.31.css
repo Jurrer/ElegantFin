@@ -1373,7 +1373,8 @@ body {
 }
 
 /* this hides the main media title when the clear logo is available*/
-.detailLogo:not(.hide) ~ .detailPageWrapperContainer .nameContainer h1 {
+.detailLogo:not(.hide) ~ .detailPageWrapperContainer .nameContainer h1,
+.detailLogo:not(.hide) ~ .detailPageWrapperContainer .nameContainer .subtitle {
     z-index: 2;
     display: var(--itemTitleVisibility);
 }
