@@ -1282,7 +1282,7 @@ body {
 }
 
 #itemDetailPage:has(.subtitle) .detailLogo {
-    top: calc(100vh - 10em - var(--secondaryItemPageNegativeSpace));
+    top: calc(100vh - 15em - var(--secondaryItemPageNegativeSpace));
 }
 
 .layout-mobile #itemDetailPage:has(.subtitle) .detailLogo {
@@ -3270,9 +3270,17 @@ div[data-role="controlgroup"] a.ui-btn-active {
     padding-bottom: 1em;
 }
 
+#itemDetailPage:has(.subtitle) .subtitle {
+    padding-top: 3em;
+}
+
 .layout-mobile .subtitle {
     font-size: 1.5em;
     padding-bottom: 0.5em;
+}
+
+.layout-mobile #itemDetailPage:has(.subtitle) .subtitle {
+    padding-top: 1em;
 }
 
 .itemName.originalTitle {
