@@ -1282,7 +1282,7 @@ body {
 }
 
 #itemDetailPage:has(.subtitle) .detailLogo {
-    top: calc(100vh - 15em - var(--secondaryItemPageNegativeSpace));
+    top: calc(100vh - 30em - var(--secondaryItemPageNegativeSpace));
 }
 
 .layout-mobile #itemDetailPage:has(.subtitle) .detailLogo {
