@@ -1282,11 +1282,11 @@ body {
 }
 
 #itemDetailPage:has(.subtitle) .detailLogo {
-    top: calc(100vh - 6em - var(--secondaryItemPageNegativeSpace));
+    top: calc(100vh - 5em - var(--secondaryItemPageNegativeSpace));
 }
 
 .layout-mobile #itemDetailPage:has(.subtitle) .detailLogo {
-    top: calc(100vh - 11em - var(--secondaryItemPageNegativeSpace));
+    top: calc(100vh - 10em - var(--secondaryItemPageNegativeSpace));
 }
 
 .layout-desktop .detailImageContainer .card {
