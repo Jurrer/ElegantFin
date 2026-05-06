@@ -1286,7 +1286,7 @@ body {
 }
 
 .layout-mobile #itemDetailPage:has(.subtitle) .detailLogo {
-    top: calc(100vh - 10em - var(--secondaryItemPageNegativeSpace));
+    top: calc(100vh - 11em - var(--secondaryItemPageNegativeSpace));
 }
 
 .layout-desktop .detailImageContainer .card {
@@ -2985,8 +2985,8 @@ div[data-role="controlgroup"] a.ui-btn-active {
 }
 
 /* this is needed for alignment of non-clickable section headings on phones */
-.layout-mobile :not(.sectionTitleContainer-cards) > .sectionTitle-cards {
-    margin: 0.75em 0 -0.75em 0;
+.layout-mobile div > .sectionTitle-cards {
+    margin: 0.75em 0 -0.75em 0 !important;
 }
 
 .dashboardSection .sectionTitleTextButton > .material-icons,
@@ -3272,17 +3272,9 @@ div[data-role="controlgroup"] a.ui-btn-active {
     padding-bottom: 1em;
 }
 
-#itemDetailPage:has(.subtitle) .subtitle {
-    padding-top: 3em;
-}
-
 .layout-mobile .subtitle {
     font-size: 1.5em;
     padding-bottom: 0.5em;
-}
-
-.layout-mobile #itemDetailPage:has(.subtitle) .subtitle {
-    padding-top: 1em;
 }
 
 .itemName.originalTitle {
