@@ -3271,7 +3271,7 @@ div[data-role="controlgroup"] a.ui-btn-active {
 }
 
 #itemDetailPage:has(.subtitle) .subtitle {
-    padding-top: 1.5em;
+    padding-top: 3em;
 }
 
 .layout-mobile .subtitle {
