@@ -1380,7 +1380,8 @@ body {
 }
 
 /* this shows the main media title and the poster when the clear logo is unavailable*/
-.detailLogo.hide ~ .detailPageWrapperContainer .nameContainer h1 {
+.detailLogo.hide ~ .detailPageWrapperContainer .nameContainer h1,
+.detailLogo.hide ~ .detailPageWrapperContainer .nameContainer .subtitle {
     display: block !important;
 }
 
